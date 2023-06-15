@@ -1,0 +1,13 @@
+version: "3.5"
+services:
+    cypress-chrome:
+        build: .
+        working_dir: /app
+        volumes:
+            - ./:/app
+          
+
+          
+
+
+    

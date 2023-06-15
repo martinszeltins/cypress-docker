@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "baseUrl": "./",
+        "types": ["cypress"],
+        "useDefineForClassFields": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "strictNullChecks": true,
+        "forceConsistentCasingInFileNames": true,
+        "useUnknownInCatchVariables": false,
+        "jsx": "preserve",
+        "sourceMap": false,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "lib": ["esnext", "dom"],
+        "isolatedModules": false,
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true,
+        "strictFunctionTypes": true,
+        "allowJs": true
+    },
+
+    "include": [
+        "**/*.ts"
+    ]
+}
